@@ -1,0 +1,10 @@
+Bill for Reservation ID: 2
+Name: Daniel One
+Email: customer1@example.com
+Room Number: 1
+Check-In Date: 2023-03-05
+Check-Out Date: 2023-03-15
+Days Staying: 10
+Total Room Cost: 500
+Additional Charges: 30
+Total Bill: 530

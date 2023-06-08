@@ -1,0 +1,667 @@
+/* Style for the header buttons */
+
+.headerStyle ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(95, 89, 89);
+}
+
+.headerStyle li {
+    float: left;
+}
+
+.headerStyle li img {
+    height: 105px;
+    width: 170px;
+    border: black;
+    border-width: 2px;
+}
+
+.headerStyle li a {
+    display: block;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 34px 24px;
+    text-decoration: none;
+}
+
+.headerStyle li a:hover:not(.active) {
+    background-color: rgb(41, 37, 37);
+}
+
+.headerStyle button {
+    background-color: #b4b5b5;
+
+    color: rgb(8, 7, 7);
+    padding: 0px 20px;
+    align-self: center;
+    margin: 10px 10;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+}
+
+.loginHover :hover:not(.active) {
+    background-color: rgb(41, 37, 37);
+}
+body {
+    background-color: #cbc9c4;
+}
+/* index page h1 style */
+#h1PageOne h1{
+    font-size:50px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+}
+/* calendar checkin checkout style */
+.wrapperForCal form{
+    margin-bottom: 15px;
+}
+/* style for picture onindex page */
+.firstPagePic a img{
+    height: 600px;
+    width : 100%;
+
+}
+/* style for the footer */
+footer {
+    position: bottom;
+    bottom: 5px;
+    left: 5px;
+    right: 0;
+    background: rgb(95, 89, 89);
+    height: 200px;
+    width: 100%;
+    padding-top: 0px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    padding: 1%;
+    font-size: 2.1rem;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    line-height: 0rem;
+}
+/* style for social on every page on footer */
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #a89f9f;
+    border: 1.1px solid white;
+    padding: 10px;
+    border-radius: 60%;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-bottom {
+
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a {
+    color: #44bae8;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 100;
+}
+
+.footer-menu {
+    float: center;
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    padding-left: 150px;
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: #cfd2d6;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #627782;
+}
+
+@media (max-width:500px) {
+    .footer-menu ul {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+
+@media (min-width: 768px) {
+    .footer-menu button {
+        padding: 0 2.6rem;
+    }
+}
+
+/* about.php page style */
+.pageAbout p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.imgAbout figure {
+    display: inline-block;
+    border: 1px black;
+
+}
+
+.imgAbout figure a img {
+    display: inline-block;
+    width: 100%;
+    height: 170px;
+}
+
+.imgAbout figure figcaption {
+
+    text-align: center;
+}
+
+.boxAbout ul li {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.boxAbout p {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* customer login page style */
+.containerLogin {
+    padding: 16px;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.containerLogin form input {
+    background-color: #e2e4e4;
+    color: rgb(45, 43, 43);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+#customerlogin {
+    background-color: #b4bbb9;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+#customerReg {
+    background-color: #a2a5a4;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+.containerLogin h1 {
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin-left: 0px;
+}
+
+/* style for customerRegister.php, roomCRUDcteate.php */
+.containerReg form input {
+    background-color: #e2e4e4;
+    color: rgb(45, 43, 43);
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+.containerReg  #createRoom{
+    background-color: #e2e4e4;
+    color: rgb(45, 43, 43);
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+.containerReg h1 {
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin-left: 0px;
+
+}
+
+.containerSignin {
+    background-color: #a2a5a4;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 20;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+#custRegisterButton {
+    background-color: #a2a5a4;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 20;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+
+
+}
+
+/* this style is for bookNow.php page */
+
+
+#room img {
+    width: 60%;
+    height: 320px;
+    border: 2px;
+    border-color: black;
+
+}
+
+#room button {
+    background-color: rgb(95, 89, 89);
+    height: 30px;
+}
+
+#room table {
+    text-align: left;
+}
+
+/* style for ratePage */
+
+
+/* .rate:not(:checked) > input {
+    
+    top:-9999px;
+} */
+div.stars {
+    width: 270px;
+    display: inline-block;
+}
+
+input.star {
+    display: none;
+}
+
+label.star {
+    float: right;
+    padding: 10px;
+    font-size: 36px;
+    color: #444;
+    transition: all .2s;
+}
+
+input.star:checked~label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+}
+
+input.star-5:checked~label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+}
+
+input.star-1:checked~label.star:before {
+    color: #F62;
+}
+
+label.star:hover {
+    transform: rotate(-15deg) scale(1.3);
+}
+
+label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+}
+.comment {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+textarea.comment {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+
+/* temporary table stuff  */
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    align-self: left;
+    width: 70%;
+    margin-left: 0%;
+    margin-right: 20%;
+}
+
+th {
+    padding: 5px;
+    text-align: left;
+    color: white;
+}
+
+td {
+    padding: 5px;
+    text-align: left;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: rgba(53, 53, 53, 0.5)
+}
+
+tr:nth-child(odd) {
+    background: rgba(56, 50, 50, 0.5)
+}
+
+/* style for the gallery */
+#roomGalary table {
+    align-self: left;
+    width: 100%;
+    margin-left: 0%;
+
+}
+
+#roomGalary1 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#roomGalary1 img {
+    width: 70%;
+    margin-left: 0%;
+}
+
+/* this style is for the calendar in index page */
+
+/* this style is for the final reservation page  */
+.regFormForRoom form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.regFormForRoom form h2 {
+    text-align: right;
+}
+
+.regFormForRoom form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.regFormForRoom form input[type="text"],
+.regFormForRoom form input[type="email"],
+.regFormForRoom form input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.regFormForRoom form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#regFormForRoom form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* customerEditDetails card section style */
+
+.btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.btn-green {
+    background-color: #008000;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+.credit-card-section {
+width: 50%;
+background-color: #f9f9f9;
+padding: 20px;
+margin: 10px 0;
+border-radius: 4px;
+}
+
+.credit-card-section h3 {
+text-align: center;
+margin-bottom: 10px;
+}
+
+.credit-card-row {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.credit-card-row div {
+flex-basis: 48%;
+}
+/* style for submit button on stafflogin.php page */
+#stafflogin {
+    background-color: #c0c5c0;
+    color: rgb(25, 24, 24);
+    padding: 17px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  #stafflogin:hover {
+    background-color: #caf3cc;
+  }
+  /* style for staffHub */
+  .staffLog a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #aaf5ad;
+    color: rgb(53, 52, 52);
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 20%;
+  }
+  
+  .staffLog a:hover {
+    background-color: #d4f4d5;
+  }
+  
+      
+  .staffLog input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6ca36e;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .staffLog input[type="submit"]:hover {
+    background-color: #6d8e6e;
+  }
+
+  /* style for */
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+}
+
+.btn-request {
+    background-color: #FFA500;
+}
+
+.btn-logout {
+    background-color: #008CBA;
+}
+
+.btn-delete {
+    background-color: #f44336;
+}
+
+.btn:hover {
+    opacity: 0.8;
+} 
+/* style for Availableroom.php images*/
+
+.room-image {
+  width: 100px; /* adjust as needed */
+  height: auto; /* maintain aspect ratio */
+  transition: transform 0.2s ease-in-out;
+}
+
+.room-image:hover {
+  transform: scale(5.1);
+}
+
