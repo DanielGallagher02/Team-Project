@@ -1,0 +1,245 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>6</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>318</x><y>138</y><w>162</w><h>216</h></coordinates><panel_attributes>XBillX
+--
+billID: Int
+customerID: Int
+roomID: Int
+amount: Float
+paymentDate: Date
+
+--
+getBillID()
+getCustomerID()
+getRoomID()
+getAmount()
+getPaymentDate()
+setBillID()
+setCustomerID()
+setRoomID()
+setAmount()
+setPaymentDate()
+createBill()
+cancelBill()
+updateBill()
+calculateTotalAmount()
+toString()
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>396</y><w>144</w><h>240</h></coordinates><panel_attributes>Reservation
+--
+reservationID: Int
+customerID: Int
+roomID: Int
+checkInDate: Date
+checkOutDate: Date
+numOfOccupants: Int
+
+--
+getReservationID()
+getCustomerID()
+getRoomID()
+getCheckInDate()
+getCheckOutDate()
+getNumOfOccupants()
+setReservationID()
+setCustomerID()
+setRoomID()
+setCheckInDate()
+setCheckOutDate()
+setNumOfOccupants()
+makeReservation()
+cancelReservation()
+updateReservation()
+viewReservationHistory()
+toString()
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>948</x><y>180</y><w>162</w><h>234</h></coordinates><panel_attributes>XReceptionistX
+--
+ReceptionistID: Int
+firstName: String
+lastName: String
+email: String
+phoneNum: Int
+homeAddress: String
+
+--
+getReceptionistID()
+getFirstName()
+getLastName()
+getEmail()
+getPhoneNum()
+getHomeAddress()
+setReceptionistID()
+setFirstName()
+setLastName()
+setEmail()
+setPhoneNum()
+setHomeAddress()
+CheckRoomAvailibility()
+ReserveRoom()
+GenrateBill()
+toString()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>174</x><y>384</y><w>150</w><h>294</h></coordinates><panel_attributes>Customer
+--
+customerID: Int
+username: String
+password: String
+email: String
+firstName: String
+lastName: String
+phoneNum: Int
+
+--
+getCustomerID()
+getUsername()
+getPassword()
+getEmail()
+getName()
+getSurname()
+getPhoneNum()
+setUsername()
+setPassword()
+setEmail()
+setName()
+setSurname()
+setPhoneNum()
+loggedIn(boolean)
+checkIn()
+checkOut()
+PayBill()
+addReview()
+deleteReview()
+toString()
+
+
+
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>618</x><y>0</y><w>156</w><h>234</h></coordinates><panel_attributes>XPaymentX
+--
+paymentID(): Int
+reservationID: Int
+roomID: Int
+amount: Float
+paymentMethod: String
+paymentStatus: String
+
+--
+getPaymentID()
+getReservationID()
+getRoomID()
+getAmount()
+getPaymentMethod()
+getPaymentStatus()
+setPaymentID()
+setReservationID()
+setRoomID()
+setAmount()
+setPaymentMethod()
+setPaymentStatus()
+processPayment()
+updatePaymentStatus()
+cancelPayment()
+toString()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>384</y><w>144</w><h>246</h></coordinates><panel_attributes>Room
+--
+roomID: Int
+roomType: String
+roomPrice: Double
+roomCapacity: Int
+availability: Boolean
+bedType: String
+
+--
+getRoomID()
+getRoomType()
+getRoomPrice()
+getAvailability()
+getRoomCapacity()
+getBedType()
+setRoomID()
+setRoomType()
+setRoomPrice()
+setBedType()
+setAvailability()
+setRoomCapacity()
+addRoom()
+deleteRoom()
+updateRoomDetails()
+viewAvailability()
+toString()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>948</x><y>426</y><w>144</w><h>204</h></coordinates><panel_attributes>XReviewX
+--
+reviewID: Int
+roomID: Int
+customerID: Int
+reviewDescription: String
+rating: Int
+
+--
+getReviewID()
+getCustomerID()
+getReviewDescription()
+getRating()
+setReviewID()
+setCustomerID()
+setReviewDescription()
+setRating()
+averageRating()
+sortReviews()
+flagInappropriateReview()
+toString()
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>318</x><y>444</y><w>114</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+can make &gt;</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>828</x><y>462</y><w>132</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+Has &gt;</panel_attributes><additional_attributes>10;20;200;20</additional_attributes></element><element><id>Relation</id><coordinates><x>558</x><y>474</y><w>144</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1
+is for  &gt;</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>Relation</id><coordinates><x>828</x><y>396</y><w>132</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1
+managed by &gt;</panel_attributes><additional_attributes>10;20;200;20</additional_attributes></element><element><id>Relation</id><coordinates><x>258</x><y>258</y><w>72</w><h>138</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+pays &gt;</panel_attributes><additional_attributes>10;210;10;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>474</x><y>324</y><w>228</w><h>102</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=0..*
+belongs to &gt;</panel_attributes><additional_attributes>360;140;230;140;230;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>474</x><y>264</y><w>486</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1..*
+is processed by &gt;</panel_attributes><additional_attributes>10;20;790;20</additional_attributes></element><element><id>Relation</id><coordinates><x>474</x><y>168</y><w>156</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+can have &gt;</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>Relation</id><coordinates><x>318</x><y>624</y><w>732</w><h>48</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1..*
+Writes &gt;</panel_attributes><additional_attributes>10;50;1180;50;1180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>84</y><w>510</w><h>636</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+Has a &gt;</panel_attributes><additional_attributes>610;920;610;1040;10;1040;10;10;830;10</additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>144</y><w>408</w><h>558</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1
+Has a &gt;</panel_attributes><additional_attributes>10;810;10;910;620;910;620;10;40;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>534</x><y>726</y><w>156</w><h>186</h></coordinates><panel_attributes>Extra
+--
+
+--
+
+
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
