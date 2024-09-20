@@ -150,7 +150,6 @@ If you encounter any issues while setting up or running the application, please 
 - The config.php file contains the correct database credentials.
 - Your SQL dump has been correctly imported into MySQL.
 - Apache and MySQL services are running before accessing the application.
-- 
 If issues persist, consult the documentation.
 
 ## Acknowledgments
