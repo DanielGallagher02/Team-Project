@@ -17,6 +17,8 @@ Welcome to iHotel, a hotel reservation system developed as a group project as pa
    - [Staff Portal](#staff-portal)
 6. [Contributors](#contributors)
 7. [License](#license)
+8. [Help](#help)
+9. [Acknowledgments](#acknowledgments)
 
 ## Project Overview
 
@@ -141,6 +143,24 @@ CREATE TABLE `customer` (
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.   
+
+## Help
+If you encounter any issues while setting up or running the application, please ensure that:
+
+- PHP and MySQL are correctly installed and running.
+- The config.php file contains the correct database credentials.
+- Your SQL dump has been correctly imported into MySQL.
+- Apache and MySQL services are running before accessing the application.
+- 
+If issues persist, consult the documentation.
+
+## Acknowledgments
+Special thanks to:
+
+- PHP Documentation for support during backend development.
+- MySQL Documentation for database management help.
+- Stack Overflow for providing community-driven answers to technical challenges.
+- Agile Methodology principles for keeping the project structured and efficient during development.
 
 
      
