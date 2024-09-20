@@ -1,6 +1,6 @@
 # iHotel - Hotel Reservation System
 
-Welcome to iHotel, a hotel reservation system developed as a group project as part of my final year project for the BSc in Computing. The system allows customers to search, compare, and book hotel rooms, while providing hotel staff with tools to manage reservations, customer data, and hotel services.
+Welcome to iHotel, a hotel reservation system developed as a group project as part of my final year project for my Bachelor of Science in Computing. The system allows customers to search, compare, and book hotel rooms, while providing hotel staff with tools to manage reservations, customer data, and hotel services.
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
