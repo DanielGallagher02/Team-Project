@@ -76,3 +76,72 @@ CREATE TABLE `customer` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
 
+## Installation 
+
+## Dependencies 
+- XAMPP or WAMP server
+- PHP 7.x or higher
+- MYSQL 5.x or higher
+- Web browser (e.g., Chrome, Firefox)
+
+## Installing
+1. **Clone the Repository:**
+
+2. **Set Up the Database:**
+   - Import the SQL dump file (`hotel.sql`) into your MySQL database using phpMyAdmin or the MySQL       command line:
+     ```bash
+     mysql -u yourusername -p hotel < hotel.sql
+     ```
+3. **Configure the Database Connection:**
+   - Update the database connection settings in the `config.php` file with your local database          details:
+     ```php
+     $dbHost = 'localhost';
+     $dbUsername = 'root';
+     $dbPassword = '';
+     $dbName = 'hotel';
+     ```
+     
+4. **Set up a Local Web Server:**
+   - Move the project files to the `htdocs` directory (for XAMPP) or `www` directory (for WAMP).
+   - Start your Apache and MySQL services.
+
+### Excuting Program
+
+1. **Run the Application:**
+   - Open your web browser and navigate to:
+   ```
+   http://localhost/ihotel
+   ```
+
+2. **Log in as a customer or staff member** using your credentials
+
+## Usage
+
+### Customer Portal
+
+- **Room Availability**: Customers input check-in and check-out dates to see available rooms.
+- **Booking**: After selecting a room, customers can proceed with booking and add extra services if desired.
+- **Manage Bookings**: Customers can view, modify, or cancel their reservations.
+- **Leave Reviews**: After their stay, customers can leave reviews for their experience.
+
+### Staff Portal
+
+- **Manage Rooms**: Staff members can add, edit, or remove room listings.
+- **Manage Reservations**: View, modify, or cancel customer reservations.
+- **Check-In/Check-Out**: Staff can manage guest check-in and check-out processes.
+- **Manage Extras**: Staff can update and manage additional services (extras) available for booking.
+
+## Contributors
+
+- **Daniel Gallagher** - Back-End Developer responsible for the booking and reservation system.
+- **Oksana Aleksandrovica** - Front-End Developer responsible for UI design and customer login systems.
+- **Eryk Gloginski** - Full Stack Developer focused on room management and database design.
+- **Donal McGinty** - Full Stack Developer contributing to check-in/check-out system and form validation.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.   
+
+
+     
+
