@@ -90,12 +90,11 @@ CREATE TABLE `customer` (
 1. **Clone the Repository:**
 
 2. **Set Up the Database:**
-   - Import the SQL dump file (`hotel.sql`) into your MySQL database using phpMyAdmin or the MySQL       command line:
+   - Import the SQL dump file (`hotel.sql`) into your MySQL database using phpMyAdmin or the MySQL command line:
      ```bash
-     mysql -u yourusername -p hotel < hotel.sql
      ```
 3. **Configure the Database Connection:**
-   - Update the database connection settings in the `config.php` file with your local database          details:
+   - Update the database connection settings in the `config.php` file with your local database details:
      ```php
      $dbHost = 'localhost';
      $dbUsername = 'root';
