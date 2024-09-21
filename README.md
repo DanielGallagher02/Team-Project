@@ -134,10 +134,10 @@ CREATE TABLE `customer` (
 
 ## Contributors
 
-- **Daniel Gallagher** - Back-End Developer responsible for the booking and reservation system.
+- **Daniel Gallagher** - Back-End Developer responsible for the booking and reservation system aswell as the check in/check out system.
 - **Oksana Aleksandrovica** - Front-End Developer responsible for UI design and customer login systems.
 - **Eryk Gloginski** - Full Stack Developer focused on room management and database design.
-- **Donal McGinty** - Full Stack Developer contributing to check-in/check-out system and form validation.
+- **Donal McGinty** - Full Stack Developer contributing to form validation.
 
 ## License
 
