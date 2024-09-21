@@ -16,9 +16,10 @@ Welcome to iHotel, a hotel reservation system developed as a group project as pa
    - [Customer Portal](#customer-portal)
    - [Staff Portal](#staff-portal)
 6. [Contributors](#contributors)
-7. [License](#license)
-8. [Help](#help)
-9. [Acknowledgments](#acknowledgments)
+7. [Weekly Journals](#weekly-journals)
+8. [License](#license)
+9. [Help](#help)
+10. [Acknowledgments](#acknowledgments)
 
 ## Project Overview
 
@@ -139,6 +140,43 @@ CREATE TABLE `customer` (
 - **Eryk Gloginski** - Full Stack Developer focused on room management and database design.
 - **Donal McGinty** - Full Stack Developer contributing to form validation.
 
+## Weekly Journals
+
+Throughout the development of the iHotel project, weekly journal entries were maintained to track the progress of the team and identify challenges encountered. These journals were vital for staying organized, reflecting on our development journey, and adjusting tasks as needed.
+
+### Example Weekly Entry: Week 6
+
+#### Work Completed in Hours Last Week:
+| Team Member           | Hours |
+|-----------------------|-------|
+| Oksana Aleksandrovica  | 5     |
+| Daniel Gallagher       | 5     |
+| Eryk Gloginski         | 5     |
+| Donal Mc Ginty         | 2.5   |
+
+#### Tasks Completed:
+- **Oksana**: Implemented the customer review system and integrated it into the customer dashboard.
+- **Daniel**: Completed the room booking feature with real-time availability check.
+- **Eryk**: Finalized the room management CRUD operations for staff.
+- **Donal**: Started working on the check-in/check-out functionality for staff.
+
+#### Tasks In Progress:
+- **Daniel**: Working on implementing secure payment integration for bookings.
+- **Donal**: Continuing to refine the check-in/check-out system.
+- **Oksana**: Styling improvements and adding extras feature for room bookings.
+- **Eryk**: Finishing the integration of extras into the reservation system.
+
+#### Challenges Encountered:
+- **Oksana**: Waiting for the room CRUD operations to be fully functional before integrating extras management.
+- **Daniel**: Faced issues with validating payment forms securely; collaborating with the team to find a solution.
+- **Donal**: Encountered database consistency issues when managing check-in/check-out dates, which caused errors in the system.
+
+#### Next Week's Goals:
+- **Oksana**: Finalize the styling improvements and complete the integration of extras.
+- **Daniel**: Finish implementing secure payment and testing end-to-end booking process.
+- **Eryk**: Assist with finalizing the customer and staff flows, including room management.
+- **Donal**: Resolve database issues and fully implement the check-in/check-out system for staff.
+  
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.   
